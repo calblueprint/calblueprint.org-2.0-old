@@ -1,12 +1,17 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Layout from '../../components/layout';
 
 export default function StudentApplication() {
-    return <div>
+  return (
+    <Layout>
+      <div>
         <h1>Hello students</h1>
         <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
-        </div>
-  }
+          <Link href="/">
+            <a>Back to home</a>
+          </Link>
+        </h2>
+      </div>
+    </Layout>
+  );
+}

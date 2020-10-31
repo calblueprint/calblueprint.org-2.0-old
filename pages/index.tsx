@@ -1,10 +1,10 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Blueprint</title>
+        <title>Home | Blueprint</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -205,5 +205,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
