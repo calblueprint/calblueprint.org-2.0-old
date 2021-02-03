@@ -1,7 +1,15 @@
 {
   "name": "calblueprint.org",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.18.4",
+    "yarn": "1.22.5"
+  },
   "private": true,
+  "cacheDirectories": [
+    ".next/cache",
+    "node_modules"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
