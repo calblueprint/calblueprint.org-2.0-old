@@ -1,0 +1,12 @@
+{
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "environments": {
+    "review": {
+      "env": {
+        "HEROKU_API_KEY": {
+          "required": true
+        }
+      }
+    }
+  }
+}
