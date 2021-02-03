@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 
-export default function StudentApplication() {
+export const StudentApplication: React.FC = () => {
   return (
     <Layout>
       <div>
@@ -14,4 +14,6 @@ export default function StudentApplication() {
       </div>
     </Layout>
   );
-}
+};
+
+export default StudentApplication;

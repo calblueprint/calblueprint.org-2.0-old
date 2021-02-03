@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function Apply() {
+export const Apply: React.FC = () => {
   return (
     <div>
       <Head>
@@ -13,4 +13,6 @@ export default function Apply() {
       </Link>
     </div>
   );
-}
+};
+
+export default Apply;
