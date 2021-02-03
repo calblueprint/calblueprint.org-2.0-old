@@ -20,6 +20,9 @@ const Layout: React.FC<Props> = ({ children, title = 'Blueprint' }) => {
               <h1>Blueprint</h1>
             </a>
           </Link>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </nav>
       </header>
       {children}
