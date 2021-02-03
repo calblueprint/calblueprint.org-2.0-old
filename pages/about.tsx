@@ -35,7 +35,6 @@ export const getStaticProps: GetStaticProps = async () => {
       id: r.getId(),
       name: r.get('Name'),
     }));
-    console.log(people);
     return { props: { people } };
   } catch (error) {
     console.error(error);
